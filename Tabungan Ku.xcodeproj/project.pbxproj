@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F11791CA539F0F9F534E9AB /* Pods_Tabungan_Ku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155EA88CC1C47E24A8939046 /* Pods_Tabungan_Ku.framework */; };
+		3F976CCE09F77793A9499FE7 /* Pods_Tabungan_KuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68879392F5A9A84F5305C387 /* Pods_Tabungan_KuTests.framework */; };
+		469D84EB7DC7DA908C83A09B /* Pods_Tabungan_KuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8805B5ADC8A0AB06A0323E /* Pods_Tabungan_KuUITests.framework */; };
+		EF11C01A229E1FDB0088182C /* OutcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11C019229E1FDB0088182C /* OutcomeViewController.swift */; };
+		EF11C01C229E1FF40088182C /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11C01B229E1FF40088182C /* IncomeViewController.swift */; };
+		EF11C01E229E20160088182C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11C01D229E20160088182C /* SettingsViewController.swift */; };
 		EF872B39229CE90700D8EAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF872B38229CE90700D8EAC4 /* AppDelegate.swift */; };
 		EF872B3B229CE90700D8EAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF872B3A229CE90700D8EAC4 /* ViewController.swift */; };
 		EF872B3E229CE90700D8EAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF872B3C229CE90700D8EAC4 /* Main.storyboard */; };
@@ -35,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C104282BA41514E1909875 /* Pods-Tabungan KuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabungan KuUITests.release.xcconfig"; path = "Target Support Files/Pods-Tabungan KuUITests/Pods-Tabungan KuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		155EA88CC1C47E24A8939046 /* Pods_Tabungan_Ku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabungan_Ku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2621A61CA3A5FBFEA340A13F /* Pods-Tabungan Ku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabungan Ku.release.xcconfig"; path = "Target Support Files/Pods-Tabungan Ku/Pods-Tabungan Ku.release.xcconfig"; sourceTree = "<group>"; };
+		68879392F5A9A84F5305C387 /* Pods_Tabungan_KuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabungan_KuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8805B5ADC8A0AB06A0323E /* Pods_Tabungan_KuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabungan_KuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927544390911148FF535E97 /* Pods-Tabungan KuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabungan KuTests.debug.xcconfig"; path = "Target Support Files/Pods-Tabungan KuTests/Pods-Tabungan KuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28A6BF6F5C5D84C36B7F427 /* Pods-Tabungan KuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabungan KuUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tabungan KuUITests/Pods-Tabungan KuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D235A8218D5F5E7D991423 /* Pods-Tabungan Ku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabungan Ku.debug.xcconfig"; path = "Target Support Files/Pods-Tabungan Ku/Pods-Tabungan Ku.debug.xcconfig"; sourceTree = "<group>"; };
+		E9C05B9B5F45158E381F0B54 /* Pods-Tabungan KuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabungan KuTests.release.xcconfig"; path = "Target Support Files/Pods-Tabungan KuTests/Pods-Tabungan KuTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF11C019229E1FDB0088182C /* OutcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomeViewController.swift; sourceTree = "<group>"; };
+		EF11C01B229E1FF40088182C /* IncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		EF11C01D229E20160088182C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EF872B35229CE90700D8EAC4 /* Tabungan Ku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabungan Ku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF872B38229CE90700D8EAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF872B3A229CE90700D8EAC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F11791CA539F0F9F534E9AB /* Pods_Tabungan_Ku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F976CCE09F77793A9499FE7 /* Pods_Tabungan_KuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469D84EB7DC7DA908C83A09B /* Pods_Tabungan_KuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37697C29EC22E86FBC6E75AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155EA88CC1C47E24A8939046 /* Pods_Tabungan_Ku.framework */,
+				68879392F5A9A84F5305C387 /* Pods_Tabungan_KuTests.framework */,
+				6A8805B5ADC8A0AB06A0323E /* Pods_Tabungan_KuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D237294AD32272CE147890E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3D235A8218D5F5E7D991423 /* Pods-Tabungan Ku.debug.xcconfig */,
+				2621A61CA3A5FBFEA340A13F /* Pods-Tabungan Ku.release.xcconfig */,
+				7927544390911148FF535E97 /* Pods-Tabungan KuTests.debug.xcconfig */,
+				E9C05B9B5F45158E381F0B54 /* Pods-Tabungan KuTests.release.xcconfig */,
+				A28A6BF6F5C5D84C36B7F427 /* Pods-Tabungan KuUITests.debug.xcconfig */,
+				06C104282BA41514E1909875 /* Pods-Tabungan KuUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF11C018229E1FAD0088182C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF872B3A229CE90700D8EAC4 /* ViewController.swift */,
+				EF11C019229E1FDB0088182C /* OutcomeViewController.swift */,
+				EF11C01B229E1FF40088182C /* IncomeViewController.swift */,
+				EF11C01D229E20160088182C /* SettingsViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		EF872B2C229CE90700D8EAC4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +138,8 @@
 				EF872B4F229CE90A00D8EAC4 /* Tabungan KuTests */,
 				EF872B5A229CE90A00D8EAC4 /* Tabungan KuUITests */,
 				EF872B36229CE90700D8EAC4 /* Products */,
+				D237294AD32272CE147890E2 /* Pods */,
+				37697C29EC22E86FBC6E75AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +156,8 @@
 		EF872B37229CE90700D8EAC4 /* Tabungan Ku */ = {
 			isa = PBXGroup;
 			children = (
+				EF11C018229E1FAD0088182C /* ViewController */,
 				EF872B38229CE90700D8EAC4 /* AppDelegate.swift */,
-				EF872B3A229CE90700D8EAC4 /* ViewController.swift */,
 				EF872B3C229CE90700D8EAC4 /* Main.storyboard */,
 				EF872B42229CE90A00D8EAC4 /* Assets.xcassets */,
 				EF872B44229CE90A00D8EAC4 /* LaunchScreen.storyboard */,
@@ -135,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF872B60229CE90A00D8EAC4 /* Build configuration list for PBXNativeTarget "Tabungan Ku" */;
 			buildPhases = (
+				380BB20FD89359FBB42424D7 /* [CP] Check Pods Manifest.lock */,
 				EF872B31229CE90700D8EAC4 /* Sources */,
 				EF872B32229CE90700D8EAC4 /* Frameworks */,
 				EF872B33229CE90700D8EAC4 /* Resources */,
+				9F5F6E134A1CF41BF6DE5AE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF872B63229CE90A00D8EAC4 /* Build configuration list for PBXNativeTarget "Tabungan KuTests" */;
 			buildPhases = (
+				045EFB62B11754012710A67F /* [CP] Check Pods Manifest.lock */,
 				EF872B48229CE90A00D8EAC4 /* Sources */,
 				EF872B49229CE90A00D8EAC4 /* Frameworks */,
 				EF872B4A229CE90A00D8EAC4 /* Resources */,
@@ -170,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF872B66229CE90A00D8EAC4 /* Build configuration list for PBXNativeTarget "Tabungan KuUITests" */;
 			buildPhases = (
+				5DBFBB0509B2B270DCCDB01D /* [CP] Check Pods Manifest.lock */,
 				EF872B53229CE90A00D8EAC4 /* Sources */,
 				EF872B54229CE90A00D8EAC4 /* Frameworks */,
 				EF872B55229CE90A00D8EAC4 /* Resources */,
@@ -254,14 +315,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		045EFB62B11754012710A67F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabungan KuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380BB20FD89359FBB42424D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabungan Ku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBFBB0509B2B270DCCDB01D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabungan KuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5F6E134A1CF41BF6DE5AE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tabungan Ku/Pods-Tabungan Ku-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tabungan Ku/Pods-Tabungan Ku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF872B31229CE90700D8EAC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF872B41229CE90700D8EAC4 /* Tabungan_Ku.xcdatamodeld in Sources */,
+				EF11C01C229E1FF40088182C /* IncomeViewController.swift in Sources */,
+				EF11C01A229E1FDB0088182C /* OutcomeViewController.swift in Sources */,
 				EF872B3B229CE90700D8EAC4 /* ViewController.swift in Sources */,
 				EF872B39229CE90700D8EAC4 /* AppDelegate.swift in Sources */,
+				EF11C01E229E20160088182C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +591,7 @@
 		};
 		EF872B61229CE90A00D8EAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D235A8218D5F5E7D991423 /* Pods-Tabungan Ku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +609,7 @@
 		};
 		EF872B62229CE90A00D8EAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2621A61CA3A5FBFEA340A13F /* Pods-Tabungan Ku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +627,7 @@
 		};
 		EF872B64229CE90A00D8EAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7927544390911148FF535E97 /* Pods-Tabungan KuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +648,7 @@
 		};
 		EF872B65229CE90A00D8EAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C05B9B5F45158E381F0B54 /* Pods-Tabungan KuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		EF872B67229CE90A00D8EAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28A6BF6F5C5D84C36B7F427 /* Pods-Tabungan KuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +689,7 @@
 		};
 		EF872B68229CE90A00D8EAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C104282BA41514E1909875 /* Pods-Tabungan KuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
