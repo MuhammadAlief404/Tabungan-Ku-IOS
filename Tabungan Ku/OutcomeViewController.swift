@@ -10,9 +10,37 @@ import UIKit
 
 class OutcomeViewController: UIViewController {
 
+    @IBOutlet weak var transactionAmountTextField: UITextField!
+    @IBOutlet weak var transactionDescTextField: UITextField!
+    @IBAction func commitOutcomeTransaction(_ sender: Any) {
+        let inputsValid = validateInputs(transactionAmountTextField.text, transactionDescTextField.text)
+        
+        if (!inputsValid) {
+            print("input invalid!")
+        } else {
+            //commit here
+        }
+        
+    
+    }
+    
+    func validateInputs(_ amountText: String!, _ descText: String!) -> Bool {
+        let amount = Int(amountText)
+    
+        if (amount! < 0 || amount == nil) {
+            return false
+        }
+        
+        if (descText.count < 1) {
+            return false
+        }
+        
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
