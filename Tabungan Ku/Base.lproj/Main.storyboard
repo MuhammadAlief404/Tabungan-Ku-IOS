@@ -230,7 +230,7 @@
         <!--Income-->
         <scene sceneID="kaw-iM-Bpc">
             <objects>
-                <viewController id="K6b-mJ-YQU" customClass="ViewController" customModule="Tabungan_Ku" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="K6b-mJ-YQU" customClass="IncomeViewController" customModule="Tabungan_Ku" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Zw-tO-YIF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -294,6 +294,9 @@
                                 <state key="normal" backgroundImage="bg_button">
                                     <color key="titleColor" red="0.4823529412" green="0.7843137255" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="commitTransaction:" destination="K6b-mJ-YQU" eventType="touchUpInside" id="m80-3g-iSw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Income" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVv-9I-nO0">
                                 <rect key="frame" x="166" y="178" width="83" height="32"/>
@@ -307,6 +310,10 @@
                         <viewLayoutGuide key="safeArea" id="Q0T-w8-Lmn"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Income" image="ic_income" id="yLm-YL-P01"/>
+                    <connections>
+                        <outlet property="incomeAmountTextField" destination="tFh-DL-4ES" id="tsO-Ya-Sq6"/>
+                        <outlet property="incomeDescTextField" destination="Lj4-3b-cHs" id="Lqn-Vz-eTS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppm-XC-Ae3" sceneMemberID="firstResponder"/>
             </objects>

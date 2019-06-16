@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import CoreData
 
 class OutcomeViewController: UIViewController {
-
+    var context:NSManagedObjectContext!
     @IBOutlet weak var transactionAmountTextField: UITextField!
     @IBOutlet weak var transactionDescTextField: UITextField!
     @IBAction func commitOutcomeTransaction(_ sender: Any) {
@@ -19,13 +20,30 @@ class OutcomeViewController: UIViewController {
             print("input invalid!")
         } else {
             //commit here
+        
+            let entity = NSEntityDescription.entity(forEntityName: "Transaction", in: context)
+            
+            let newTransaction = NSManagedObject(entity: entity!, insertInto: context)
+            
+            
+            newTransaction.setValue(Double(transactionAmountTextField.text!)! * -1, forKey: "amount")
+            newTransaction.setValue(transactionDescTextField.text, forKey:"desc")
+            newTransaction.setValue("outcome", forKey:"desc")
+
+            do{
+                try context.save()
+            }catch{
+                print("Insert Failed")
+            }
+            
+            
         }
         
     
     }
     
     func validateInputs(_ amountText: String!, _ descText: String!) -> Bool {
-        let amount = Int(amountText)
+        let amount = Double(amountText)
     
         if (amount! < 0 || amount == nil) {
             return false
